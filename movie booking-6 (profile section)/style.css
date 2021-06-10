@@ -1,0 +1,93 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.bgImage 
+{
+    background: black;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    filter: blur(0px);
+    left: 0%;
+    right: 0%;
+    margin: 0%;
+    position: fixed;
+    z-index: -1;
+  }
+.navbar
+{
+      padding:10px;
+      background-color: rgba(0,0,0,0.0);
+      margin-top:20px;
+      display:flex;
+      gap: 10px;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row;
+  }
+.button
+  {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5%;
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.container
+{
+    width: 1300px;
+    overflow: hidden;
+}
+.sliderbox
+{
+    width:6500px;
+    position: relative;
+    animation-name: sliderboxAnimation;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sliderboxAnimation
+{
+    0%{left: 0px;}
+    10%{left:0px;}
+    12.5%{left:-1300px;}
+    22.5%{left:-1300px;}
+    25%{left:-2600px;}
+    35%{left:-2600px;}
+    37.5%{left:-3900px;}
+    47.5%{left:-3900px;}
+    50%{left:-5200px;}
+    60%{left: -5200px;}
+    62.5%{left: -3900px;}
+    72.5%{left: -3900px;}
+    75%{left: -2600px;}
+    85%{left: -2600px;}
+    87.5%{left: -1300px;}
+    97.5%{left:-1300px;}
+    100%{left: 0px;}
+}
+.sliderbox img
+{
+    float: left;
+}
+.poster
+{
+    width: 650px;
+    height: 390px;
+}
