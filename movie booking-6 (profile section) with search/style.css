@@ -1,0 +1,154 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background:linear-gradient(to right, black,white);
+    overflow-x: hidden;
+}
+
+.navbar
+{
+      padding:10px;
+      background-color: rgba(0,0,0,0.0);
+      margin-top:20px;
+      display:flex;
+      gap: 10px;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row;
+  }
+.profile
+  {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5%;
+    background-color:rgb(116, 180, 64);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s;
+}
+
+.logout
+  {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5%;
+    background-color:rgb(192, 62, 62);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s;
+}
+
+.profile:hover
+{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(116, 180, 64);
+    font-weight: bolder;
+}
+
+.logout:hover
+{
+    cursor: pointer;
+    background-color: black;
+    color:rgb(192, 62, 62);
+    font-weight: bolder;
+}
+
+.container
+{
+    width: 1300px;
+    overflow: hidden;
+}
+.sliderbox
+{
+    width:6500px;
+    position: relative;
+    animation-name: sliderboxAnimation;
+    animation-duration: 65s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sliderboxAnimation
+{
+  0%{left:-325px ;}
+  7.7%{left:-325px ;}
+  9.2%{left: -975px;}
+  16.9%{left:-975px ;}
+  18.4%{left: -1625px;}
+  26.1%{left:-1625px;}
+  27.6%{left: -2275px;}
+  35.3%{left:-2275px;}
+  36.8%{left: -2975px;}
+  44.3%{left:-2975px;}
+  45.8%{left:-3575px;}
+  53.5%{left:-3575px;}
+  55.0%{left: -2975px;}
+  62.7%{left:-2975px;}
+  64.2%{left:-2275px;}
+  71.9%{left: -2275px;}
+  73.4%{left:-1625px;}
+  81.1%{left: -1625px;}
+  82.6%{left:-975px;}
+  90.3%{left:-975px;}
+  91.8%{left:-325px;}
+  100%{left:-325px;}
+}
+.sliderbox img
+{
+    float: left;
+}
+.poster
+{
+    width: 650px;
+    height: 390px;
+    transition:0.3s;
+}
+
+.poster:hover
+{
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 10px solid white;
+}
+
+.searchBox
+{
+    background-color: rgb(255, 255, 255);
+    gap: 5px;
+    margin-top: 20px;
+    padding:5px;
+    display: flex;
+    width: fit-content;
+    margin-left:450px;
+}
+.searchBox input
+{
+    background-color: black;
+    border: none;
+   
+    width: 400px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.searchBox img
+{
+    margin: top 2px;
+    width: 35px;
+    height:30px;
+}
+
+.searchBox .searchButton
+{
+    cursor:pointer;
+}
+
+
