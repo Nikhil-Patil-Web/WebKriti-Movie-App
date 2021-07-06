@@ -1,0 +1,369 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body
+{
+    background: black;
+    color: white;
+}
+
+.container-1
+{
+    margin-top:10vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image
+{
+    width:20vw;
+    height:40vh;
+    border-radius:16px;
+    border:10px solid white;
+}
+
+.text
+{
+    padding:20px;
+    border-radius:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width:40vw;
+    height:auto;
+    background:linear-gradient(to bottom left, #db4cbc, #dd0e20);
+}
+
+.select
+{
+    padding:20px;
+    margin:30px;
+    background:linear-gradient(to top right, #db4cbc, #dd0e20);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.selectDate
+{
+    padding:5px;
+    border-radius: 10px;
+    background: black;
+    height:10vh;
+    width:20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectDate input{
+    border-radius:10px;
+    width: 10vw;
+    height:5vh;
+}
+
+.selectCity
+{
+    border-radius: 10px;
+    padding:5px;
+    background: black;
+    height:10vh;
+    width:20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectCity select{
+    border-radius: 10px;
+    width: 10vw;
+    height:5vh;
+}
+
+
+
+
+.multiplexBoxAhemdabad1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880);
+}
+.multiplex
+{
+    padding:10px;
+    margin:5px;
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.multiplex a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.multiplexBoxAhemdabad2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880);
+}
+.multiplexBoxAmbala1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+.multiplexBoxAmbala2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxAgra1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxAgra2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxBangalore1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxBangalore2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxChennai1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxChennai2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxDelhi1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxDelhi2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxGuwahati1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxGuwahati2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxHyderabad1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxHyderabad2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxIndore1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxIndore2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxKolkatta1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxKolkatta2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxMumbai1
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
+
+.multiplexBoxMumbai2
+{
+    margin-top:20px;
+    padding:10px;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:linear-gradient(to top right, #ffce00, #fe4880); 
+}
